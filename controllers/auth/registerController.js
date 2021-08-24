@@ -18,6 +18,7 @@ const registerRontroller = {
 
 
         if(error) {
+            return next(error)
             throw error;    
         } 
 
